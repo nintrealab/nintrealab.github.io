@@ -10,7 +10,7 @@
 <body>
 
     <div class="p-10 text-center flex items-center justify-center min-h-screen">
-        <button onclick="NCModal()" class="py-1.5 px-2 animateSlideInUp bg-red-500 rounded-md text-white shadow-md focus:outline-none">Click ME</button>
+        <button onclick="clickMe()" class="py-1.5 px-2 animateSlideInUp bg-red-500 rounded-md text-white shadow-md focus:outline-none">Click ME</button>
         <nc-modal id="ncModal" hidden>
             <div class="max-w-xl mx-auto p-5 flex h-full items-center justify-center">
                 
@@ -44,12 +44,15 @@
     </div>
 
     <script>
-        NCModal(
-            {
-                id          : "ncModal",
-                removeBTN   : "ncModalRemove"
-            }
-        );
+        function clickMe(){
+            NCModal(
+                {
+                    id          : "ncModal",
+                    removeBTN   : "ncModalRemove",
+                    clickAway   : true
+                }
+            );
+        }
     </script>
 </body>
 </html>

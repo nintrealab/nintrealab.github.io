@@ -1,10 +1,46 @@
-/*
-✔​ version : "0.0.2"
-✔​ private : true
-✔​ name    : "NCModal"
-✔​ author  : "<Leat Sophat>"
-✔​ date    : "14-08-2022"
-*/
+/**
+ * @function    NCModal
+ * @description Modals offer an easy way to build custom, accessible modal componnet
+ * @version     0.0.2
+ * @author      <Leat Sophat> ? [https://leatsophat.me]
+ * @requires    TailwindCss
+ *
+ *
+ * @Usage Example
+ *      
+ * @Button
+ *  <button onclick="NCModal()">
+ *      Click ME
+ *  </button>
+ * 
+ * @Modal
+ *  <nc-modal id="ncModal" hidden>
+ *      <div>
+ *          <div class="flex justify-between items-center px-4 py-3 border-b">
+ *              <label for=""> Modal Title </label>
+ *              <button class="ncModalRemove">
+ *                  Close Button
+ *              </button>
+ *          </div>
+ *
+ *
+ *          <div class="p-5 border-b">
+ *              Content
+ *          </div>
+ * 
+ *          <div class="w-full flex justify-end gap-2 items-center px-4 py-3">
+ *              Footer
+ *          </div>
+ *      </div>
+ *  </nc-modal>
+ *
+ * 
+ * @Script
+ *  NCModal({
+ *     id       : "ncModal", 
+ *     removeBTN: "ncModalRemove"
+ *  });
+**/
 
 window.NCModal = (optionControl) => 
 {
