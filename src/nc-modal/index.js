@@ -45,7 +45,7 @@ window.NCModal = (optionControl) =>
                 const clone     = modalId.cloneNode(true);
                 clone.removeAttribute('hidden');
                 clone.id        = "ncModal-" + randomNumber;
-                clone.className = "animate-fadeIn " + ncOptions.className ?? modalId.children[0].className;
+                clone.className = "animateSlideInUp " + ncOptions.className ?? modalId.children[0].className;
                 const cloneTo   = document.getElementById(backDropID);
                 cloneTo.appendChild(clone)
             } 
