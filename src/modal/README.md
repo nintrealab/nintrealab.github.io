@@ -1,7 +1,4 @@
-## Introduction
-Hello There! My name is [Sophat](https://github.com/pphatDev), I'am a front-end develop. I'm from Cambodia. This package is use for web development Modal. also this my testing modal plugin. 
-  
-  
+
 ## Installation
 This is the way how to install this package please follow these commands blow: 
  
