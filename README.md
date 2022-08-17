@@ -2,12 +2,12 @@
 Hello There! My name is [Sophat](https://github.com/pphatDev), I'am a front-end develop. I'm from Cambodia. This package is use for web development. I'll show you all feature at bottom blow: 
   
 ## NCModal // nc-modal
-NCModal is a Function for alert or Popup Card that can custom styling by user. more detil about [`nc-modal`]('https://github.com/nintrealab/ncModal/src/modal/README.md')
+NCModal is a Function for alert or Popup Card that can custom styling by user. more detil about [Learn More](https://github.com/nintrealab/ncModal/blob/main/src/modal/README.md)
 
 
 ## DataTabs
 DataTabs is the name of Tabs That used for Tabs and Tabs Content.
-[`Learn More`]('https://github.com/nintrealab/ncModal/src/tabs/README.md')
+[Learn More](https://github.com/nintrealab/ncModal/blob/main/src/tabs/README.md)
 
 ## Technology Usage
 
