@@ -11,9 +11,7 @@ DataTabs is the name of Tabs That used for Tabs and Tabs Content.
 
 ## Technology Usage
 
-![image](https://user-images.githubusercontent.com/65520537/185019069-385d92d7-8c12-4c8e-8229-b93df196b7ef.png)
-
-![image](https://user-images.githubusercontent.com/65520537/185019457-dbdf2616-a258-4a5c-82af-be3c1aed36ec.png)
-
-![image](https://user-images.githubusercontent.com/65520537/185019624-67df2299-0fdb-406e-90fa-ae441abd79ed.png)
-
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|<img width="1604" src="https://user-images.githubusercontent.com/65520537/185019069-385d92d7-8c12-4c8e-8229-b93df196b7ef.png">  Webpack |  <img width="1604" src="https://user-images.githubusercontent.com/65520537/185019457-dbdf2616-a258-4a5c-82af-be3c1aed36ec.png"> TailwindCss |<img width="1604" src="https://user-images.githubusercontent.com/65520537/185019624-67df2299-0fdb-406e-90fa-ae441abd79ed.png"> Babel Js|
+| | | |
