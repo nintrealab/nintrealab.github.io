@@ -5,7 +5,6 @@
  [![npm version](https://badge.fury.io/js/nc-modal.svg)](https://badge.fury.io/js/nc-modal)  [![Downloads](https://img.shields.io/npm/dt/nc-modal)](https://www.npmjs.com/package/git-stats) 
 
 </div>
-
 ## Introduction
 Hello There! My name is [Sophat](https://github.com/pphatDev), I'am a front-end develop. I'm from Cambodia. This package is use for web development. I'll show you all feature at bottom blow: 
   

@@ -17,12 +17,15 @@
         "nc-modal",
         "nintrea-component-modal"
     ],
-    "author": "sophat",
+    "author": {
+        "name":"sophat",
+        "url": "https://leatsophat.me"
+    },
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/nintrealab/ncModal/issues"
     },
-    "homepage": "https://github.com/nintrealab/ncModal#readme",
+    "homepage": "https://nintrealab.github.io/ncModal/",
     "devDependencies": {
         "@babel/core": "^7.18.10",
         "@babel/preset-env": "^7.18.10",
