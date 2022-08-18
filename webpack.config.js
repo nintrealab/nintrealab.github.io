@@ -8,7 +8,7 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name]/ncModal@[name].[name]',
+        filename: '[name]/ncModal[name].[name]',
         clean: true,
         assetModuleFilename: '[name][ext]'
     },
@@ -24,12 +24,28 @@ module.exports = {
         historyApiFallback: true
     },
     plugins: [
+        // new HtmlWebpackPlugin({
+        //     title: process.env.BLOG_TITLE ?? 'Home' ,
+        //     style: '/css/tailwind.css',
+        //     filename: 'index.html',
+        //     template: 'src/index.html'
+        // }),
+
         new HtmlWebpackPlugin({
-            title: process.env.BLOG_TITLE ?? 'ncModal' ,
-            style: 'css/tailwind.css',
+            title: 'Modal' ,
+            style: '/css/tailwind.css',
             filename: 'index.html',
-            template: 'src/index.html'
-        })
+            demodir: '/modal/demo.html',
+            active: 'currentActive ',
+            template: 'src/template/modal.html'
+        }),
+
+        new HtmlWebpackPlugin({
+            title: 'Modal-Demo' ,
+            style: '/css/tailwind.css',
+            filename: 'modal/demo.html',
+            template: 'src/template/modal-demo.html'
+        }),
     ],
     module: {
         rules: [
