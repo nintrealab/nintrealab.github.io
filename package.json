@@ -1,6 +1,6 @@
 {
     "name": "nc-modal",
-    "version": "0.0.3",
+    "version": "0.1.3",
     "description": "Modal plugins functions use ",
     "main": "index.js",
     "scripts": {
