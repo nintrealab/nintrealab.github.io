@@ -5,7 +5,7 @@
 node_modules
 
 # Ignore dist folder
-dist
+# dist
 
 # Ignore all text files
 *.txt
