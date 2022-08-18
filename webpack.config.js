@@ -35,7 +35,7 @@ module.exports = {
             title: 'Modal' ,
             style: 'css/tailwind.css',
             filename: 'index.html',
-            demodir: '/modal/demo.html',
+            demodir: 'demo.html',
             active: 'currentActive ',
             template: 'src/template/modal.html'
         }),
@@ -43,7 +43,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             title: 'Modal-Demo' ,
             style: 'css/tailwind.css',
-            filename: 'modal/demo.html',
+            filename: 'demo.html',
             template: 'src/template/modal-demo.html'
         }),
     ],
